@@ -3,7 +3,7 @@ let idade;
 
 function Menu(){
     nome = prompt("Digite o nome do nadador")
-    idade = prompt("Digite a idade do nadador")
+    idade = Number(prompt("Digite a idade do nadador"))
 }
 Menu()
 let categoria

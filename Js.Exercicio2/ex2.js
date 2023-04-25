@@ -1,6 +1,6 @@
-let nmr1 = prompt("Digite o primeiro numero");
-let nmr2 = prompt("Digite o segundo numero");
-let nmr3 = prompt("Digite o terceiro numero");
+let nmr1 = Number(prompt("Digite o primeiro numero"));
+let nmr2 = Number(prompt("Digite o segundo numero"));
+let nmr3 = Number(prompt("Digite o terceiro numero"));
 
 let maiorValor = nmr1;
 

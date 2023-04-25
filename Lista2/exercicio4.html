@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercicio4.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculadora de Peso Ideal</h1>
+    <form>
+      <label for="genero">Gênero:</label>
+      <input
+        type="text"
+        id="genero"
+        name="genero"
+        placeholder="M - Masculino, F - Feminino"
+      />
+      <br />
+      <br />
+      <label for="altura">Altura:</label>
+      <input type="text" id="altura" name="altura" />
+      <br />
+      <br />
+      <button type="button" onclick="VerificarPesoIdeal()">Calcular</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="exercicio4.js"></script>
+  </body>
+</html>
